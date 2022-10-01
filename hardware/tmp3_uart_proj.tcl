@@ -34,14 +34,6 @@
 # Check file required for this script exists
 proc checkRequiredFiles { origin_dir} {
   set status true
-  set files [list \
- "[file normalize "$origin_dir/tmp3_uart_proj/tmp3_uart_proj.srcs/utils_1/imports/synth_1/bd_subsystem_wrapper.dcp"]"\
-  ]
-  foreach ifile $files {
-    if { ![file isfile $ifile] } {
-      puts " Could not find local file $ifile "
-      set status false
-    }
   }
 
   set files [list \
