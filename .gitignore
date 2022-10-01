@@ -1,0 +1,6 @@
+software/* 
+!software/tmp_uart_app
+software/tmp_uart_app/* 
+!software/tmp_uart_app/src 
+
+hardware/tmp3_uart_proj
